@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4ct2cltasadu"]
+
+[ext_resource type="Texture2D" uid="uid://64rn3fvkb0qq" path="res://sprites/icon.svg" id="1_xef65"]
+
+[node name="TestingScene" type="Node2D"]
+
+[node name="SillyRobotText" type="Label" parent="."]
+offset_left = 96.0
+offset_top = 47.0
+offset_right = 264.0
+offset_bottom = 70.0
+text = "I am a silly little robot
+>:]"
+
+[node name="Label" type="Label" parent="SillyRobotText"]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 56.0
+offset_right = 132.0
+offset_bottom = 79.0
+text = "more text testing"
+
+[node name="GodotSymbol" type="Sprite2D" parent="."]
+position = Vector2(187, 176)
+rotation = -2.57087
+skew = 0.829031
+texture = ExtResource("1_xef65")
